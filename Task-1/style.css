@@ -1,0 +1,133 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fff1e6;
+}
+
+.container-fluid{
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#hero{
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+
+}
+
+.hero-heading{
+    text-align: center;
+    font-weight: 700;
+}
+
+.hero-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 8;
+}
+
+.hero-content-text{
+    width: 600px;
+    font-size: 20px;
+    margin-right: 50px;
+    padding: auto;
+}
+
+.hero-jobs{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card{
+    background-color: #e8e8e4;
+    border: none;
+}
+
+.project-samples{
+    display: flex;
+    justify-content: center;
+}
+
+.VideoProjects{
+    background-color: #240046 ;
+    width: 100%;
+    height: 500px;
+
+}
+
+.Newsletter{
+    background-image: url(https://images.unsplash.com/photo-1622080546819-ecd0657a3e4c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGJyaWRnZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.Newsletter_title{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.Newsletter_signup{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-btn:hover{
+    background-color: yellow;
+}
+
+.avtar {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.footer{
+    color: black;
+    background-color: white;
+}
+  
+  @media (min-width: 1200px){
+    .navbar-brand{
+        margin-right: 400px;
+        margin-left: 300px ;
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+}
+
+.price-btn{
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+}
+.price-btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.blog-btn{
+    background-color: blueviolet;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+.blog-btn:hover{
+    background-color: yellow;
+    color: black;
+}
